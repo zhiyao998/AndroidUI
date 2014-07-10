@@ -19,6 +19,7 @@ public class SearchfriendActivity extends Activity {
 	private Spinner sex_spinner;
 	private Spinner old_spinner;
 	private Button near_btn;
+	private Button find_btn;
 	
 	private ArrayAdapter<String> sextype_Adapter;
 	private ArrayAdapter<String> oldrange_Adapter;
@@ -32,6 +33,7 @@ public class SearchfriendActivity extends Activity {
 		sex_spinner = (Spinner)findViewById(R.id.sextype_spinner);
 		old_spinner = (Spinner)findViewById(R.id.oldrange_spinner);
 		near_btn = (Button)findViewById(R.id.nearpeople);
+		find_btn = (Button)findViewById(R.id.find);
 		
 		sextype_Adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,m_sextype);
 		oldrange_Adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,m_old);
@@ -49,6 +51,19 @@ public class SearchfriendActivity extends Activity {
 				// TODO Auto-generated method stub
                 Intent intent = new Intent(); 
                 intent.setClass(SearchfriendActivity.this, Nearpeople.class);
+                startActivity(intent); 
+                finish();
+			}
+			
+		});
+		
+		find_btn.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+                Intent intent = new Intent(); 
+                intent.setClass(SearchfriendActivity.this, Findfriendresult.class);
                 startActivity(intent); 
                 finish();
 			}

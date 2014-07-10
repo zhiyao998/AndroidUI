@@ -21,29 +21,32 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int face_bg=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int img00=0x7f020002;
-        public static final int login_top_bg=0x7f020003;
-        public static final int main_login_normal=0x7f020004;
-        public static final int main_login_pressed=0x7f020005;
-        public static final int main_login_selector=0x7f020006;
+        public static final int add=0x7f020000;
+        public static final int face_bg=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int img00=0x7f020003;
+        public static final int login_top_bg=0x7f020004;
+        public static final int main_login_normal=0x7f020005;
+        public static final int main_login_pressed=0x7f020006;
+        public static final int main_login_selector=0x7f020007;
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f080000;
-        public static final int action_settings=0x7f080011;
-        public static final int button1=0x7f08000a;
-        public static final int button2=0x7f080009;
+        public static final int action_settings=0x7f080013;
+        public static final int button2=0x7f08000c;
         public static final int editText1=0x7f080002;
         public static final int edit_name=0x7f080005;
+        public static final int find=0x7f080009;
+        public static final int imageButton1=0x7f080010;
         public static final int imageView1=0x7f08000d;
         public static final int item_detail=0x7f08000f;
         public static final int item_name=0x7f08000e;
-        public static final int listView1=0x7f080010;
+        public static final int listView1=0x7f080012;
         public static final int login_top_layout=0x7f080001;
-        public static final int nearpeople=0x7f08000c;
-        public static final int old_range=0x7f08000b;
+        public static final int nearpeople=0x7f08000b;
+        public static final int old_range=0x7f08000a;
         public static final int oldrange_spinner=0x7f080007;
+        public static final int result=0x7f080011;
         public static final int search_name=0x7f080004;
         public static final int sex_type=0x7f080008;
         public static final int sextype_spinner=0x7f080006;
@@ -52,7 +55,8 @@ public final class R {
     public static final class layout {
         public static final int activity_searchfriend=0x7f030000;
         public static final int child_item_layout=0x7f030001;
-        public static final int nearpeoplelist=0x7f030002;
+        public static final int findfriendresult=0x7f030002;
+        public static final int nearpeoplelist=0x7f030003;
     }
     public static final class menu {
         public static final int searchfriend=0x7f070000;
